@@ -1,0 +1,165 @@
+body { 
+  padding-top: 70px;
+  background-color: #e7e7e7;
+}
+
+a {
+  outline:0px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:none;
+  outline:0px;
+}
+
+a:focus{
+  text-decoration:none;
+  outline:0px;
+}
+
+a {
+  cursor: pointer;
+}
+
+textarea {
+   resize: none;
+}
+
+
+/**** Publications ****/
+.profile-comment {
+  background-repeat: no-repeat;
+  background-size: 55px;
+}
+
+.profile-home {
+	width: 35px; 
+	height: 35px; 
+	display: inline-block; 
+	vertical-align: middle; 
+	margin-right: 5px;
+}
+
+/*** Emojis ***/
+#elemento-destino{
+  font-size:2em;
+  padding-top:5px;
+}
+
+.emoji{  
+    display:inline-block;
+    vertical-align:middle;
+    width: 60px;
+    height: 60px;
+    background: url(https://s-media-cache-ak0.pinimg.com/236x/e9/b3/13/e9b313c5bad0465c6ee1cb51b06e9e2d.jpg); 
+}
+
+.emoji.lengua{  
+  background-position: 0px 0px;
+}
+
+.emoji.XD{
+ 
+  background-position: 0px 180px;
+}
+
+.emoji.smile{  
+  background-position: 60px 0px;
+}
+
+.emoji.coqueteo{  
+  background-position: 118px -414px;
+}
+
+.fa-comment_ {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.span-group-comment {
+  padding: 0px 12px;
+}
+
+.textarea_comment, textarea.form-control {
+  height: 100px; 
+}
+
+.panel {
+  box-shadow: 0 1px 6px rgba(0,0,0,.05);
+  border-radius: 7px;
+}
+
+.img-publication{
+  border-radius: 7px 7px 0px 0px;
+}
+
+.reactions-bottom {
+  border-radius: 20px;
+}
+
+.background-gray {
+  background: #eee;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.color-red {
+  color: red;
+}
+
+.btn-gray {
+    color: #636b6f;
+    background-color: #eee;
+    border-color: #ccc;
+}
+
+.image-news{
+  height: 150px !important;
+  background-size: cover;
+}
+
+.user-news{
+  margin-top: -35px !important;
+  border: 3px solid !important;
+}
+
+.user{
+  padding: 5px !important;
+  border:0;
+}
+
+.user-color{
+  background-color: #2882b5;
+  color: white;
+}
+
+.user-fa-1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.user-fa-2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.user-fa-3 {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  font-size: 30px;
+}
+
+.user-fa-4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 35px;
+}
